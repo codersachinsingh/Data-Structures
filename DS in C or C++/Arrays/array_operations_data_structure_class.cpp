@@ -3,7 +3,6 @@
  *Author : Sachin Singh (7982858206)
  *Author's Email : sachinsingh.sk13@gmail.com
  *Date : 20-01-2018
- *Description : I implemented various data structure concepts related to Arrays in C++ language.
  */
 
 #include <iostream>
