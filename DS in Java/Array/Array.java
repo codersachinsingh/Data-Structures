@@ -1,4 +1,3 @@
-package com.datastructures;
 /**Data Structures : Array
  * Filename : array.java
  * @author Sachin Singh (7982858206)
