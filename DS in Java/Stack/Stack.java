@@ -1,4 +1,3 @@
-package com.datastructures;
 /**
  * Data Structures : Stack
  * Filename : stack.java
