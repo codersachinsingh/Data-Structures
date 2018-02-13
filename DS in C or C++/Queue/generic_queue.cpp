@@ -9,6 +9,7 @@
 
 #include<iostream>
 using namespace std;
+/* Note: this class is only for test the generic queue class*/
 class Point {
 	int x,y;
 public:
