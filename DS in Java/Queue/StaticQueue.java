@@ -47,4 +47,11 @@ public class StaticQueue <T> {
             return (T) queue[front++];
         }
     }
+    
+    public T peek() {
+        if (front < 0 || front > rear ) {
+            return null;
+        else
+            return (T) queue[front++];
+        }
 }
