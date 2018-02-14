@@ -1,3 +1,10 @@
+/**
+* Data Structures : Queue
+* Filename : staticqueue.java
+* @author Sachin Singh (7982858206)
+* Email : sachinsingh.sk13@gmail.com
+* Description : Queue is a First in First out list . this is a STATIC QUEUE 
+*/
 public class StaticQueue <T> {
     Object[] queue;
     int rear,front;
