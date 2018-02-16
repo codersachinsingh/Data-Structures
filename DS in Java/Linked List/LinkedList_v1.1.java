@@ -1,5 +1,3 @@
-package data.structures;
-
 import java.util.Iterator;
 
 /**
@@ -8,7 +6,7 @@ import java.util.Iterator;
  * @author Sachin Singh
  * Email : sachinsingh.sk13@gmail.com
  * Description : LinkedList class  
- * @version 1.0
+ * @version 1.1
  * */
 
 public class LinkedList implements Iterator<Integer> {
