@@ -1,4 +1,3 @@
-package data.structures;
 import java.util.Iterator;
 
 /**
