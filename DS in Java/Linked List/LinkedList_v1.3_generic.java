@@ -1,6 +1,6 @@
 /**
  * Data Structures : Linked List
- * Filename : linkedlist_v1.3.java
+ * Filename : linkedlist_v1.3_generic.java
  * @author Sachin Singh
  * Email : sachinsingh.sk13@gmail.com
  * Description : Generic LinkedList class  
