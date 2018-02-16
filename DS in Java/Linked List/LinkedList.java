@@ -1,4 +1,3 @@
-package data.structures;
 /**
  * Data Structures : Linked List
  * Filename : linkedlist.java
@@ -93,7 +92,7 @@ public class LinkedList {
 			}
 		}
 		else {
-			System.out.println("List is Empty");
+			System.out.println("List is Empty or Invalid Index");
 			return -1;
 		}
 	}
@@ -118,7 +117,7 @@ public class LinkedList {
 			}
 		}
 		else {
-			System.out.println("List is Empty");
+			System.out.println("List is Empty or Invalid Index");
 			return -1;
 		}
 	}
