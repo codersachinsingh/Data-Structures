@@ -126,7 +126,7 @@ private:
 
 	int totalSize; // current no of nodes in the list . 0 means a empty list.
 	Node *iterator;  // a pointer that helps to navigate the list in from next() and previous() method
-	bool i_flag;
+	bool i_flag; // iteration flag . false indicates end of list.
 	/*
 	 * checks the user given index , if index is valid for perform any action it returns true
 	 * otherwise returns false;
