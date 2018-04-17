@@ -31,7 +31,6 @@ class HashMap
 {
   private:
     Node hashtable[HT_SIZE];
-    int total_items;
     int hashcode(int key)
     {
         return key % HT_SIZE;
