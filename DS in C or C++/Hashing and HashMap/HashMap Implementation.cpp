@@ -48,6 +48,7 @@ class HashMap
 
     void put(int, int);
     int get(int);
+    void remove(int);
 };
 
 
@@ -102,6 +103,29 @@ int HashMap::get(int key)
     }
 }
 
+void HashMap::remove(int key) {
+    int hc = hashcode(key);
+    if (hashtable[hc].key == key) {
+        hashtable[hc].value = 0;
+        hashtable[hc].key = -1;
+    }
+    else
+    {
+        while (hashtable[hc].key != key)
+        {
+            if (hc == (HT_SIZE - 1) || hashtable[hc].key == -1)
+            {
+                cout << "Key Not Found." << endl;
+            }
+            else 
+            {
+                hc++;
+            }
+        }      
+        hashtable[hc].value = 0;
+        hashtable[hc].key  = -1;
+    }
+}
 
 // Runner function 
 int main()
