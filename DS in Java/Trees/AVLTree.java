@@ -1,6 +1,3 @@
-package datastructures.tree;
-
-
 /**
  * AVL Tree is a <b>self balancing</b> binary search tree.
  * value is inserted with a unique key (key/value pair).
